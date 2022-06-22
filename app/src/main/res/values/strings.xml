@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Conversor de Medidas</string>
+    <string name="boton_volver">Atrás</string>
+    <string name="boton_buscar">Buscar</string>
+
+    <string-array name="arrayUnidades">
+        <item>"PESO"</item>
+        <item>VOLUMEN</item>
+        <item>LONGITUD</item>
+        <item>TEMPERATURA</item>
+        <item>CAPACIDAD HDD</item>
+    </string-array>
+
+    <string-array name="arrayPeso">
+        <item>"Miligramos"</item>
+        <item>Gramos</item>
+        <item>Kilogramos</item>
+        <item>Toneladas</item>
+    </string-array>
+
+    <string-array name="arrayVolumen">
+        <item>"Mililitros"</item>
+        <item>Centilitros</item>
+        <item>Decilitros</item>
+        <item>Litros</item>
+    </string-array>
+
+    <string-array name="arrayLongitud">
+        <item>"Centimetros"</item>
+        <item>Decimetros</item>
+        <item>Metros</item>
+        <item>Decametros</item>
+    </string-array>
+
+    <string-array name="arrayTemperatura">
+        <item>"Centigrados"</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="arrayHdd">
+        <item>"Bytes"</item>
+        <item>KiloBytes</item>
+        <item>MegaBytes</item>
+        <item>GigaBytes</item>
+    </string-array>
+</resources>

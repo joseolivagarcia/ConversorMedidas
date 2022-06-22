@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <!--con las lineas anteriores creamos el tipico menu de los tres puntos, el menu aun estaria vacio -->
+    <!-- para crear opciones en el menu creamos los item necesarios con una id y el texto que aparecera en el menu-->
+    <!-- tambien creamos un icono para una barra de menu (accesos directos) -->
+    <item
+        android:id="@+id/menu_buscar"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="10"
+        android:title="@string/boton_buscar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/volver"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:orderInCategory="5"
+        android:title="@string/boton_volver"
+        app:showAsAction="ifRoom" />
+
+</menu>
